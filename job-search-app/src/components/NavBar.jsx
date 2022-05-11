@@ -1,23 +1,32 @@
-import { useState } from "react";
+import { useState, setstate} from "react";
 const Navbar = () => {
-    const [filterVisible, setFilterVisible] = useState(false);
+    const [state, setstate] = useState(false);
+    
+    const showDropdown=()=>{
+        setstate(true);
+    }    
 
+    const hideDropDown=()=>{
+        setstate(false);
+    }
     return(
-        <nav>
-            <ul>
+        <nav className="nav"> 
+            <div>
          
-                <li onClick={() => setFilterVisible(!filterVisible)} >Inicia sesión</li>
-                    <ul isVisible={filterVisible} className="opciones">
+                <li className="nav-item1" onClick={showDropdown} onMouseLeave={hideDropDown} >Inicia sesión</li>
+                {state  ?( <ul onClick={showDropdown}>
                         <li>Profesionales</li>
                         <li>Empleadores</li>
-                    </ul>
-                
-                <li onClick={() => setFilterVisible(!filterVisible)}>Regístrate</li>
-                    <ul isVisible={filterVisible} className="opciones">
+                    </ul>):null}
+            </div>
+            {/* <div>
+                <li className="nav-item2" onMouseEnter={showDropdown} onMouseLeave={hideDropDown}>Regístrate</li>
+                    
+                    {state  ?( <ul onMouseEnter={showDropdown}>
                         <li>Profesionales</li>
                         <li>Empleadores</li>
-                    </ul>
-            </ul>
+                    </ul>):null}
+           </div> */}
         </nav>
     );
 }
