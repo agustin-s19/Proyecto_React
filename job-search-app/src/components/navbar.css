@@ -1,0 +1,42 @@
+/* .active {
+    color: red;
+    font-weight: bold;
+} */
+
+.navbar{
+    height: 10vh;
+    background: #1b1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-items{
+   display: flex;
+   list-style: none;
+   text-align: center;
+   width: 70vw;
+   justify-content: flex-end;
+   margin-right: 2rem;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    font-size: 2em;
+}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-right: 3rem;
+    padding: 6px 16px;
+    border-radius: 5px;
+    
+}
+
+.nav-item a:hover{
+    background: rgb(0,212,212)
+}
