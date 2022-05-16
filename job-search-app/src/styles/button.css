@@ -1,0 +1,46 @@
+.button-navbar {
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--gray-400);
+  border: 1px solid var(--pink-200);
+  background-color: var(--white-100);
+  letter-spacing: 1.25px;
+}
+
+.button-navbar:hover {
+  color: var(--gray-600);
+  border: 1px solid var(--pink-300);
+  background-color: rgba(244, 143, 177, 0.15);
+}
+
+.button-navbar:active {
+  color: var(--white-100);
+  border: none;
+  background-color: var(--pink-200);
+}
+
+.button-submit {
+  height: 3.5rem;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  color: var(--white-100);
+  background-color: var(--pink-200);
+  letter-spacing: 1.25px;
+}
+
+.button-submit:hover {
+  background-color: var(--pink-300);
+}
+
+.button-submit:active {
+  border: 1px solid var(--pink-300);
+  color: var(--gray-600);
+  background-color: rgba(244, 143, 177, 0.15);
+}

@@ -1,7 +1,7 @@
 import { useState, setstate} from "react";
 import styled from "styled-components";
-import {NavLink, Link} from "react-router-dom"
-import "./navbar.css"
+import {NavLink, Link} from "react-router-dom";
+import "./navbar.css";
 import { navItems } from "./navItems"
 import Dropdown from "./Dropdown";
 

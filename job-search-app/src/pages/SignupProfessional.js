@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Registro = () => {
+const SignUpProfessional = () => {
   return (
     <>
     <h1>Bienvenido Profesional</h1>
@@ -9,4 +9,4 @@ const Registro = () => {
   )
 }
 
-export default Registro
+export default SignUpProfessional;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UsersPage = () => {
+const SignUpEmployer = () => {
   return (
     <>
     <h1>Bienvenido Empleador</h1>
@@ -10,4 +10,4 @@ const UsersPage = () => {
   )
 }
 
-export default UsersPage
+export default SignUpEmployer;
