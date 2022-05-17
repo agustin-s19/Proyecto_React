@@ -1,6 +1,11 @@
-const InputForm = ({ id, name, type = "text", label }) => {
+const Input = ({ id, name, type = "text", label, placeholder }) => {
   name ||= id;
   return (
-    <label></label>
-  )
+    <div className="style-input">
+      <label htmlFor={id}>{label}</label>
+      <input id={id} name={name} type={type} placeholder={placeholder} />
+    </div>
+  );
 }
+
+export default Input;

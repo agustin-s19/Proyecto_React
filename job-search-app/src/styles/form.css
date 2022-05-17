@@ -1,0 +1,27 @@
+.style-form {
+  max-width: 22.25rem;
+  
+}
+
+.style-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.style-input input {
+  width: 100%;
+  height: 2.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--pink-200);
+  padding: 0.5rem;
+  background-color: var(--white-100);
+}
+
+.style-input input:focus {
+  outline: none;
+  border: 1px solid var(--pink-300);
+  box-shadow: 0 0 10px var(--pink-200);
+}
