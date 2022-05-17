@@ -58,14 +58,14 @@ body {
   line-height: 1.875rem;
 }
 
-.container-login div h3 {
+.container-account div h3 {
   font-size: 3rem;
   line-height: 3.65rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 
-.container-login div h6 {
+.container-account div h6 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;

@@ -1,19 +1,19 @@
-import { Link } from "react-router-dom";
 import ButtonSubmit from "../components/button-submit";
 import Input from "../components/input";
-import { ReactComponent as ManImg } from "../assets/man.svg"
+import { ReactComponent as WomanImg } from "../assets/woman.svg"
 
-const LoginEmployer = () => {
+const SignUp = () => {
   return (
     <section className="container-account">
       <div className="wrapper">
-        <h3>Welcome back</h3>
-        <h6>Login to your account as...</h6>
-          <navbar className="nabvar-account text-button">
-            <Link to="/login/professional"><button className="button-off">PROFESSIONAL</button></Link>
-            <Link to="/login/employer"><button className="button-on">RECRUITER</button></Link>
-          </navbar>
+        <h3>Good choice!</h3>
+        <h6>Create a new account here...</h6>
         <form className="style-form">
+          <Input
+            id = "name"
+            label = "NAME"
+            placeholder = "John Doe"
+          />
           <Input
             id = "email"
             type = "email"
@@ -26,16 +26,21 @@ const LoginEmployer = () => {
             label = "PASSWORD"
             placeholder = "******"
           />
+          <Input
+            id = "role"
+            label = "ROLE"
+            placeholder = "Employer"
+          />
           <div className="button-center">
-            <ButtonSubmit>LOGIN</ButtonSubmit>
+            <ButtonSubmit>CREATE AN ACCOUNT</ButtonSubmit>
           </div>
         </form>
       </div>
       <div className="wrapper-img">
-        <ManImg />
+        <WomanImg />
       </div>
     </section>
-  );
+  )
 }
 
-export default LoginEmployer;
+export default SignUp;
