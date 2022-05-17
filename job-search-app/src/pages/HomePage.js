@@ -13,7 +13,7 @@ const HomePage = () => {
         <p>
           On Get That Job, you'll apply to exclusive jobs, which have been
           carefully selected in worldwide companies. On the other hand, if you
-          are a employer, here you'll find the best talent for your company.
+          are an employer, here you'll find the best talent for your company.
         </p>
         <Link to="signup" style={{textDecoration: 'none'}}>
           <ButtonSubmit>CREATE AN ACCOUNT NOW</ButtonSubmit>
