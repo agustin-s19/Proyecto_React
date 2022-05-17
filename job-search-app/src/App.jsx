@@ -15,10 +15,10 @@ function App() {
     <NavbarHeader />
       <Routes>
         <Route path="/" element={<HomePage/>}></Route>
-        <Route path="/login" element={<LoginPage />}></Route>
+        <Route path="/login" element={<LoginProfessional />}></Route>
         <Route path="/login/professional" element={<LoginProfessional />}></Route>
         <Route path="/login/employer" element={<LoginEmployer />}></Route>
-        <Route path="/signup" element={<SignUpPage />}></Route>
+        <Route path="/signup" element={<SignUpProfessional />}></Route>
         <Route path="/signup/professional" element={<SignUpProfessional/>}></Route>
         <Route path="/signup/employer" element={<SignUpEmployer/>}></Route>
         <Route path="*" element={<HomePage/>}/>
