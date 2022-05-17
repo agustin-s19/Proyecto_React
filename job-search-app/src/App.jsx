@@ -3,10 +3,8 @@ import HomePage from "./pages/HomePage"
 import NavbarHeader from "./components/navbar2";
 import LoginProfessional from "./pages/LoginProfessional";
 import LoginEmployer from "./pages/LoginEmployer";
-import LoginPage from "./pages/LoginPage";
 import SignUpProfessional from "./pages/SignupProfessional";
 import SignUpEmployer from "./pages/SignupEmployer";
-import SignUpPage from "./pages/SignupPage";
 
 function App() {
   return (

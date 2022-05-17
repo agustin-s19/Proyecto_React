@@ -6,7 +6,7 @@ import ButtonNavbar from "./button-navbar";
 const NavbarHeader = () => {
   return (
     <header className="navbar-header">
-      <Logo />
+      <Link to="/"><Logo /></Link>
       <div className="buttons">
         <Link to="signup" style={{textDecoration: 'none'}}><ButtonNavbar>
           <RiUserAddLine size={20}/>SIGN UP</ButtonNavbar></Link>
