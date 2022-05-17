@@ -1,6 +1,6 @@
 import ButtonSubmit from "../components/button-submit";
 import { ReactComponent as GroupImg } from "../assets/employees-img.svg";
-import { ReactComponent as Lens } from "../assets/lens.svg"
+import { ReactComponent as LensImg } from "../assets/lens.svg"
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -30,7 +30,7 @@ const HomePage = () => {
           </p>
         </div>
         <div className="container-image">
-          <Lens />
+          <LensImg />
         </div>
       </section>
     </>

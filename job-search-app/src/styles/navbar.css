@@ -20,3 +20,8 @@
      display: none;
   }
 }
+
+.nabvar-account {
+  display: flex;
+  gap: 1rem;
+}
