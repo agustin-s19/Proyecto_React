@@ -16,7 +16,7 @@ const HomePage = () => {
           are an employer, here you'll find the best talent for your company.
         </p>
         <Link to="signup" style={{textDecoration: 'none'}}>
-          <ButtonSubmit>CREATE AN ACCOUNT NOW</ButtonSubmit>
+          <ButtonSubmit>CREATE ACCOUNT NOW</ButtonSubmit>
         </Link>
         <GroupImg />
       </section>

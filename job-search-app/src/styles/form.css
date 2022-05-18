@@ -10,7 +10,8 @@
   margin-bottom: 1rem;
 }
 
-.style-input input {
+.style-input input, 
+.style-input select {
   width: 100%;
   height: 2.25rem;
   border-radius: 0.5rem;
@@ -20,6 +21,12 @@
 }
 
 .style-input input:focus {
+  outline: none;
+  border: 1px solid var(--pink-300);
+  box-shadow: 0 0 10px var(--pink-200);
+}
+
+.style-input select:focus {
   outline: none;
   border: 1px solid var(--pink-300);
   box-shadow: 0 0 10px var(--pink-200);

@@ -1,6 +1,7 @@
 import ButtonSubmit from "../components/button-submit";
 import Input from "../components/input";
 import { ReactComponent as WomanImg } from "../assets/woman.svg"
+import InputSelect from "../components/input-select";
 
 const SignUp = () => {
   return (
@@ -26,13 +27,13 @@ const SignUp = () => {
             label = "PASSWORD"
             placeholder = "******"
           />
-          <Input
+          <InputSelect
             id = "role"
             label = "ROLE"
-            placeholder = "Employer"
+            options = {["Applicant", "Employer"]}
           />
           <div className="button-center">
-            <ButtonSubmit>CREATE AN ACCOUNT</ButtonSubmit>
+            <ButtonSubmit>CREATE ACCOUNT</ButtonSubmit>
           </div>
         </form>
       </div>
