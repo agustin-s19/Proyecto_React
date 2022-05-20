@@ -4,7 +4,7 @@ const InputSelect = ({ id, name, label, options }) => {
     <div className="style-input">
       <label htmlFor={id}>{label}</label>
       <select id={id} name={name}>
-        {options.map (a =><option value={a}>{a}</option>)}
+        {options.map(a => <option value={a}>{a}</option>)}
       </select>
     </div>
   );

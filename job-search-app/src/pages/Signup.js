@@ -12,8 +12,8 @@ const SignUp = () => {
         <form className="style-form">
           <Input
             id = "name"
-            label = "NAME"
-            placeholder = "John Doe"
+            label = "NAME OR COMPANY NAME"
+            placeholder = "Name or Company name"
           />
           <Input
             id = "email"
@@ -25,6 +25,12 @@ const SignUp = () => {
             id = "password"
             type = "password"
             label = "PASSWORD"
+            placeholder = "******"
+          />
+          <Input
+            id = "password"
+            type = "password"
+            label = "PASSWORD CONFIRMATION"
             placeholder = "******"
           />
           <InputSelect
