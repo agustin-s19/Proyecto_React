@@ -42,3 +42,11 @@
   max-width: 35rem;
   height: 35rem;
 }
+
+.offers-container {
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem;
+}
+

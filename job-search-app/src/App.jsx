@@ -4,6 +4,7 @@ import NavbarHeader from "./components/navbar2";
 import LoginProfessional from "./pages/LoginProfessional";
 import LoginEmployer from "./pages/LoginEmployer";
 import SignUp from "./pages/Signup";
+import JobOffers from "./pages/JobEmployersPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login/professional" element={<LoginProfessional />}></Route>
         <Route path="/login/employer" element={<LoginEmployer />}></Route>
         <Route path="/signup" element={<SignUp />}></Route>
+        <Route path="/jobs/:id" element={<JobOffers />}></Route>
         <Route path="*" element={<HomePage/>}/>
       </Routes>
     </BrowserRouter>
