@@ -3,6 +3,7 @@ import { ReactComponent as GroupImg } from "../assets/employees-img.svg";
 import { ReactComponent as LensImg } from "../assets/lens.svg"
 import { Link } from "react-router-dom";
 
+
 const HomePage = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const HomePage = () => {
           carefully selected in worldwide companies. On the other hand, if you
           are an employer, here you'll find the best talent for your company.
         </p>
-        <Link to="signup" style={{textDecoration: 'none'}}>
+        <Link to="/jobs" style={{textDecoration: 'none'}}>
           <ButtonSubmit>CREATE ACCOUNT NOW</ButtonSubmit>
         </Link>
         <GroupImg />
