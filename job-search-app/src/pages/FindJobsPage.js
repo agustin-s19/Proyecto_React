@@ -2,7 +2,7 @@ import { RiArticleLine, RiSearchLine } from "react-icons/ri";
 import CardJobs from "../components/cards";
 import Input from "../components/input";
 import Navbarmenu from "../components/navbar-menu";
-
+import "../styles/layout.css"
 import "../styles/cards.css"
 
 
