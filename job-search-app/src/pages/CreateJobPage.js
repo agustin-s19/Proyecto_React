@@ -1,7 +1,6 @@
 import { RiBriefcaseLine, RiFileAddLine } from "react-icons/ri";
 import ButtonSubmit from "../components/button-submit";
 import Input from "../components/input";
-import InputSelect from "../components/input-select";
 import Navbarmenu from "../components/navbar-menu";
 
 const CreateJob = () => {
