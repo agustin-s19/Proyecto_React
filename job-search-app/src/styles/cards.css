@@ -39,3 +39,47 @@
   gap: 1rem;
   align-items: center;
 }
+
+.parameters {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parameters ul {
+  padding: 0;
+}
+
+.parameters ul .list{
+  text-decoration: none;
+  width: 80px;
+  height: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #616161;
+  flex: none;
+  list-style: none;
+}
+
+
+.sub{
+  width: 262px;
+  height: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #616161;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 5vh;
+}
+
