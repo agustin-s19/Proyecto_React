@@ -2,10 +2,12 @@ import ButtonSubmit from "../components/button-submit";
 import { ReactComponent as GroupImg } from "../assets/employees-img.svg";
 import { ReactComponent as LensImg } from "../assets/lens.svg"
 import { Link } from "react-router-dom";
+import NavbarHeader from "../components/navbar-header";
 
 const HomePage = () => {
   return (
     <>
+      <NavbarHeader />
       <section className="main-container">
         <h2>
           The best place to <span> get that job</span>

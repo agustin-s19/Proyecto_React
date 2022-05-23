@@ -43,10 +43,19 @@
   height: 35rem;
 }
 
+.logged-container {
+  max-width: 90rem;
+  display: flex;
+}
+
+.link-logged {
+  max-width: 75rem;
+}
+
 .offers-container {
-  max-width: 60rem;
+  max-width: 70rem;
   display: flex;
   flex-direction: column;
-  padding: 2rem 0rem;
+  padding: 2rem 7.5rem;
 }
 

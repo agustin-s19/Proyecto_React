@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/gtj-logo.svg";
 import ButtonNavbar from "./button-navbar";
 
-const NavbarHeader = () => {
+const NavbarHeader = ({link, active}) => {
   return (
     <header className="navbar-header">
       <Link to="/"><Logo /></Link>
       <div className="buttons">
-        <Link to="signup" style={{textDecoration: 'none'}}><ButtonNavbar>
+        <Link to="/signup" style={{textDecoration: 'none'}}><ButtonNavbar>
           <RiUserAddLine size={20}/>SIGN UP</ButtonNavbar></Link>
         <Link to="/login" style={{textDecoration: 'none'}}><ButtonNavbar>
           <RiUserReceived2Line size={20}/>LOGIN</ButtonNavbar></Link>

@@ -99,6 +99,13 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.offers-container h5 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
 .cards h6 {
   margin: 0;
   letter-spacing: 0.15px;
@@ -121,4 +128,12 @@ body {
   text-align: center;
   color: var(--gray-400);
 }
+
+.list .navbar-items {
+  font-family: var(--font-secondary);
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  color: var(--gray-400);
+}
+
 

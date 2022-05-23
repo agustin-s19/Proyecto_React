@@ -102,25 +102,25 @@ const CardJobs = () => {
       {jobs.map(job => 
         <div className="cards">
           <div>
-            <h6>{job.title.slice(0,30)}...</h6>
+            <h6>{job.title.slice(0,25)}...</h6>
             <div className="cards-group">
-              <p><MdOutlinePlace size={12.5}/>{job.location.province} </p>
-              <p><RiMoneyDollarCircleLine size={12.5}/>{job.salary}</p>
+              <p><MdOutlinePlace size={13}/>{job.location.province} </p>
+              <p><RiMoneyDollarCircleLine size={13}/>{job.salary}</p>
             </div>
           </div>
           <div className="cards-details">
             <div>
-              <RiMailOpenLine size={12.5}/>
+              <RiMailOpenLine size={13}/>
               <p>Open on {moment.utc(job.creationDate).format('DD/MM/YYYY')}</p>
             </div>
             <div>
-              <RiAccountCircleLine size={12.5}/>
+              <RiAccountCircleLine size={13}/>
               <p>Total candidates</p>
             </div>
           </div>
           <div className="cards-button">
-            <ButtonSubmit><RiSearchLine/>SHOW</ButtonSubmit>
-            <ButtonSubmit><RiCloseCircleLine/>CLOSE</ButtonSubmit>
+            <ButtonSubmit><RiSearchLine size={20}/>SHOW</ButtonSubmit>
+            <ButtonSubmit><RiCloseCircleLine size={20}/>CLOSE</ButtonSubmit>
           </div>
         </div>
       )}

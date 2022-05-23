@@ -18,7 +18,8 @@
   background-color: rgba(244, 143, 177, 0.15);
 }
 
-.button-navbar:active {
+.button-navbar:active,
+.button-active {
   color: var(--white-100);
   border: none;
   background-color: var(--pink-200);
